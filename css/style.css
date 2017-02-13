@@ -1,1 +1,241 @@
-style.css
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:200,300,400,600,700,800');
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */  
+}
+.css-selector {
+  font-family: 'Open Sans', serif;
+}
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+.clear {
+  clear: both;
+}
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+      height: 100%;
+      width: 100%;
+     color: #000;
+     font-size: 12px;
+     font-family: "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+#container {
+  width: 100%;
+  margin: 0 auto;
+  height: 400px;
+  text-align: center;
+}
+header {
+  background-color: #033048;
+  height: 100px;
+  padding: 30px;
+}
+
+/***************************
+****COVER PART**************
+***************************/
+
+#cover {
+  background: url(../images/header_bg.jpg) no-repeat fixed center rgb(134,141,157);
+  background-size: cover;
+  height: 400px;
+  width: 100%;
+}
+h1 {
+    display: inline-block;
+}
+h2{
+  text-align: center;
+  font-size: 24px;
+  font-weight: 500; 
+  color: white;
+}
+.button{
+    background-color: #f9e42e;
+    font-weight: 700;
+    text-align: center;
+    display: inline-block;
+    border: none;
+    text-align: center;
+    color: black;
+    padding: 10px 30px;
+    text-decoration: none;
+    font-size: 14px;
+    margin: 4px 2px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+h2{
+  padding: 50px;
+}
+.desktop-nav{
+  display: none;
+}
+.mobile-nav{
+  float: right;
+  height: 5px;
+  width: 10px;
+  color: #f9e42e;
+}
+/*****************************
+**********MIDDLE
+****************************/
+#Benefits{
+  background-color: #f0efef;
+  align-content: center;
+  text-align: left;
+  line-height: 2;
+  width: 100%;
+}
+#Benefits .middle {
+  padding: 60px;
+}
+ul {
+  color: #606161;
+  list-style-type: disc;
+  list-style-position: inside;
+  font-size: 13px;
+  font-weight: 200;
+}
+div h1{
+  font-size: 24px;
+  font-weight: 600; 
+}
+
+div p{
+  font-size: 13px;
+  font-weight: 200;
+}
+#testimony {
+  background: url(../images/testimonial_bg.jpg) no-repeat fixed center rgb(134,141,157);
+  background-size: cover;
+  color: white;
+  font-weight: 300;
+  margin: 0;
+  line-height: 20px;
+  font-style: italic;
+  font-size: 18px;
+  text-align: center;
+  padding: 100px;
+  width: 100%;
+}
+blockquote {
+  font-size: 16px;
+  font-weight: 300;
+  font-style: italic;
+  text-align: center;
+  line-height: 30px;
+  width: auto;
+  margin: 0 auto;
+}
+blockquote span {
+  font-weight: 600;
+  display: block;
+  font-style: normal;
+}
+/********************************
+*******BOTTOM***************
+********************************/
+#bottom{
+  background-color: #f9e42e;
+  text-align: center;
+  height: 83px;
+}
+#bottom .sign {
+  background-color: #033048;
+  text-align: center;
+  font-weight: 700;
+  color: white;
+  font-size: 14px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 14px;
+  padding: 10px 30px;
+  margin: 18px;
+}
+img{
+  padding: 20px;
+}
+footer {
+  text-align: center;
+  background-color: #121212;
+  color: white;
+  padding: 20px;
+}
+footer h1{
+  padding: 30px;
+  font-size: 24px;
+  font-weight: 900; 
+  color: #f9e42e;
+}
+
+/******************************************
+/* TABLET/DESKTOP
+/*******************************************/
+@media only screen and (min-width: 768px) {
+
+.logo {
+  float: left;
+  padding-left: 30px;
+}
+.desktop-nav {
+  list-style-type: none;
+  float: right;
+  color: #f9e42e;
+  display: inline-block;
+  }
+  .desktop-nav li { 
+  display: inline-block;
+  padding: 0 50px;
+  font-size: 15px;
+  margin: 10px;
+  font-weight: 800;
+  color: #f9e42e;
+  }
+  .mobile-nav {
+    display: none;
+  }
+  blockquote {
+    width: 580px;
+    font-size: 24px;
+  }
+}
