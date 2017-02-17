@@ -59,13 +59,12 @@ body {
 
 /* Center the container */
 #landing-container {
-  width: 100%;
-  margin: 0 auto;
   height: 400px;
   text-align: center;
 }
 .dark-blue{
   background-color: #033048;
+  color: #f9e42e;
 }
 .no-border{
   border: none;
@@ -84,6 +83,11 @@ header {
   background-size: cover;
   height: 400px;
 }
+.navbar-default .navbar-nav>li>a {
+  color: #f9e42e;
+  font-weight: 300;
+}
+
 h2{
   text-align: center;
   font-size: 24px;
