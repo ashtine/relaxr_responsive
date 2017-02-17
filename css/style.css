@@ -52,7 +52,10 @@ body {
      font-size: 12px
      font-family: "Open Sans", Helvetica, Arial, sans-serif;
 }
-
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
 /******************************************
 /* LAYOUT
 /*******************************************/
@@ -83,11 +86,13 @@ header {
   background-size: cover;
   height: 400px;
 }
+/////*OVERRIDE*////
+
 .navbar-default .navbar-nav>li>a {
   color: #f9e42e;
   font-weight: 300;
 }
-
+/////****/////
 h2{
   text-align: center;
   font-size: 24px;
