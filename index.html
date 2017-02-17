@@ -10,30 +10,41 @@
 
         <!-- external CSS link -->
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,800" rel="stylesheet">
-        <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/style.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
-        <body>
-            <div id="container"> 
-                <header>
-                    <div class="nav-desktop">
-                        <h1 class="logo">Relaxr</h1>
-                            <ul>
-                                <li>About</li>
-                                <li>FAQ</li>
-                                <li>Team</li>
-                                <li>Contact Us</li>
-                                <li>Blog</li>
-                            </ul>
+    <body>
+        <div class="container-fluid">
+            <header class="row dark-blue">
+                <nav class="navbar navbar-default no-border dark-blue col-xs-12">
+                     <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="#">Relaxr</a>
                     </div>
-                <header>
-                <div id="cover">
+                    <div class="collapse navbar-collapse alignright" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Contact</a></li>
+                            <li><a href="#">Blog</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </header>
+            <div class="row" id="landing-container"> 
+                <div class="col-xs-12" id="cover">
                     <h2>Get peace of mind with a single tap</h2>
                     <div id="button">
-                        <a href="#" class="button">Get it now</a>
+                        <a href="#" class="btn btn-info">Get it now</a>
                     </div>
                 </div>
+            </div>
             <div id="Benefits">
                 <div class="middle">
                 <h1>Benefits</h1>
@@ -51,8 +62,8 @@
                     </ul>
                 </p>
             </div>
-            <div id="testimony">
-                <blockquote>
+            <div class="row" id="testimony">
+                <blockquote class="col-xs-12 col-md-offset-2 col-md-8 col-md-offset-2">
                     “Relaxr changed my life. I’ve been able to travel the world, spend limited time working and my boss keeps thanking me for crushing work.”
                     <span>-Amanda, Intuit<span>
                 </blockquote>
@@ -67,6 +78,6 @@
                 <br><br>
                 &copy; 2015.Relaxr.
             </footer>
-        </div><!-- #container -->
-        </body>
+        </div>
+    </body>
 </html>
