@@ -1,0 +1,20 @@
+////////*****
+OVERRIDE NAV
+********/////
+
+.navbar-default .navbar-nav > li > a {
+  color: yellow;
+}
+.continer-fluid {
+    padding-right: 0;
+    padding-left: 0;
+}
+.navbar-default .navbar-brand {
+    color: white;
+    font-size: 48px;
+    font-weight: 800;
+    padding: 45px;
+}
+blockquote {
+    border-left: none;
+}
