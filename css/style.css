@@ -88,16 +88,12 @@ header {
   background-size: cover;
   height: 400px;
 }
-/////*OVERRIDE*////
-
-
-}
-/////****/////
-h2{
+h2 {
   text-align: center;
   font-size: 24px;
   font-weight: 500; 
   color: white;
+  padding: 30px;
 }
 .button{
     background-color: #f9e42e;
@@ -113,9 +109,6 @@ h2{
     margin: 4px 2px;
     border-radius: 5px;
     cursor: pointer;
-}
-h2{
-  padding: 50px;
 }
 .desktop-nav{
   display: none;
