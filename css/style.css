@@ -40,7 +40,9 @@ Developer @GA in NYC
   float: left;
   padding: 0 10px 10px 0; /* note the padding around a left floated image */
 }
-
+.center {
+  margin: 0 auto;
+}
 /******************************************
 /* BASE STYLES
 /*******************************************/
@@ -88,9 +90,7 @@ header {
 }
 /////*OVERRIDE*////
 
-.navbar-default .navbar-nav>li>a {
-  color: #f9e42e;
-  font-weight: 300;
+
 }
 /////****/////
 h2{
@@ -213,7 +213,7 @@ footer {
 }
 footer h1{
   padding: 30px;
-  font-size: 24px;
+  font-size: 30px;
   font-weight: 900; 
   color: #f9e42e;
 }
