@@ -56,7 +56,10 @@ body {
 .left {
   float: left;
 }
-
+a {
+  text-decoration: none;
+  color: inherit;
+}
 
 
 /******************************************
