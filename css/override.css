@@ -1,6 +1,6 @@
-////////*****
+/*****
 OVERRIDE NAV
-********/////
+********/
 
 .navbar-default .navbar-nav > li > a {
   color: yellow;
@@ -18,3 +18,4 @@ OVERRIDE NAV
 blockquote {
     border-left: none;
 }
+
