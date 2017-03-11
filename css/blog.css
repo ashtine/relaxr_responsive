@@ -94,11 +94,69 @@ header h1{
 .desktop-nav{
   display: none;
 }
+.hamburger{
+  background:none;
+  position:absolute;
+  top:0;
+  right:0;
+  line-height:45px;
+  padding:5px 15px 0px 15px;
+  color:#999;
+  border:0;
+  font-size:1.4em;
+  font-weight:bold;
+  cursor:pointer;
+  outline:none;
+  z-index:10000000000000;
+}
 .mobile-nav{
-  float: right;
+/*  float: right;*/
   height: 5px;
   width: 10px;
 }
+.mobile-menu{
+  z-index:1000000; 
+  font-weight:bold; 
+  width:85%; 
+  background:#f1f1f1;  
+  position:absolute; 
+  text-align:center; 
+  font-size:12px;
+}
+.mobile-menu ul {
+  margin: 0; 
+  padding: 0; 
+  list-style-type: none; 
+  list-style-image: none;
+}
+.mobile-menu li {
+  display: block;   
+  padding:5px 0 5px 0; 
+  border-bottom:#dddddd 1px solid;
+  color: red;
+}
+.mobile-menu li:hover{
+  display: block;
+  background:#ffffff; 
+  padding:15px 0 15px 0; 
+  border-bottom:#dddddd 1px solid;
+}
+.mobile-menu ul li a { 
+  text-decoration:none;  
+  margin: 0px; 
+  color:#666;
+}
+.mobile-menu ul li a:hover {
+  color: #666; 
+  text-decoration:none;
+}
+.mobile-menu a{
+  text-decoration:none;
+  color:#666;
+}
+.mobile-menu a:hover{
+  text-decoration:none; 
+  color:#666;}
 /******************************************
 /* Main section
 /*******************************************/
