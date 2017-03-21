@@ -133,7 +133,6 @@ header h1{
   display: block;   
   padding:5px 0 5px 0; 
   border-bottom:#dddddd 1px solid;
-  color: red;
 }
 .mobile-menu li:hover{
   display: block;
