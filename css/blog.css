@@ -196,13 +196,12 @@ img{
   height: auto;
   width: 100%;
 }
-span {
-    float: left;
+/*span {
     width: 0.7em;
     font-size: 400%;
     font-family: "Open Sans", sans-serif;
     line-height: 80%;
-}
+}*/
 p {
   text-align: left;
   font-weight: 300;
