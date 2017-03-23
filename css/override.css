@@ -26,5 +26,9 @@ OVERRIDE NAV
 blockquote {
     border-left: none;
 }
-
-
+.navbar-default .navbar-toggle .icon-bar {
+    margin-top:0;
+}
+.col-xs-12 {
+    float:none;
+}
