@@ -67,9 +67,10 @@ a {
 /*******************************************/
 
 /* Center the container */
-#container {
-  margin: auto;
+.container-fluid {
   text-align: center;
+  padding-right: 0;
+  padding-left: 0;
 }
 nav{
   text-align: center;
