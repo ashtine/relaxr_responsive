@@ -27,7 +27,11 @@ blockquote {
     border-left: none;
 }
 .navbar-default .navbar-toggle .icon-bar {
-    margin-top:0;
+    background-color: yellow;
+}
+.navbar-default .navbar-toggle {
+    border: none;
+    padding: 45px;
 }
 .col-xs-12 {
     float:none;

@@ -51,8 +51,9 @@ body {
       height: 100%;
       width: 100%;
      color: #000;
-     font-size: 12px
-     font-family: "Open Sans", Helvetica, Arial, sans-serif;
+     font-size: 12px;
+      font-family: 'Open Sans',Helvetica, Arial, sans-serif;
+
 }
 .container-fluid {
   padding-left: 0;
