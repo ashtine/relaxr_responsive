@@ -79,6 +79,7 @@ nav ul{
   list-style-type: none;
   float: right;
   color: #f9e42e;
+  font-weight: 200;
 }
 header h1{
   color: white;
