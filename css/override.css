@@ -23,6 +23,9 @@ OVERRIDE NAV
     float: right;
     padding: 35px;
 }
+.navbar{
+    margin-bottom: -1px;
+}
 blockquote {
     border-left: none;
 }
